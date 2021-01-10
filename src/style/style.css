@@ -179,3 +179,12 @@ body{
     height: auto;
 }
 
+#Section-Download .Grid > div:first-child{
+
+    order: 2;
+}
+
+#Section-Download .Image-tv{
+
+    order: 1;
+}
