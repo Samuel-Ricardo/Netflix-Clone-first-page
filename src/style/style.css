@@ -119,7 +119,16 @@ body{
 }
 
 .Section {
+
     background: black;
     padding: 4rem 0;
     border-top: 8px;
 }
+
+.Grid {
+
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+}
+
+
