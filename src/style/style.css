@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    padding-bottom: 20;
 }
 
 body{
@@ -32,7 +33,7 @@ body{
 
 .Main{
 
-    padding-top: 70px;
+    padding-top: 108px;
     height: 620px;
     background: url(../images/netflix-background-image.jpg) center;
     display: flex;
@@ -91,7 +92,7 @@ body{
     outline: none;
     border: none;
     color: white;
-    font-size: 30px;
+    font-size: 26px;
     text-transform: uppercase;
 
 }
