@@ -36,6 +36,15 @@ body{
     font-size: 26px;
 }
 
+.Form{
+
+    display: grid;
+    grid-template-columns: 457.1px 250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
 .Form input{
     
     width: 451px;
