@@ -109,3 +109,8 @@ body{
     bottom: 0;
 
 }
+
+.Section {
+    background: black;
+    padding: 4rem 0;
+}
