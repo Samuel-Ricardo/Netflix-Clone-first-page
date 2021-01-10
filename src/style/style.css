@@ -36,9 +36,24 @@ body{
     font-size: 26px;
 }
 
+.Form input{
+    
+    width: 451px;
+    height: 61px;
+}
+
+.Form button{
+    
+    width: 171px;
+    height: 61px;
+    margin: 0;
+    padding: 0;
+}
+
 .Main-Child p {
     font-size: 16px;
 }
+
 
 .Gradient {
 
