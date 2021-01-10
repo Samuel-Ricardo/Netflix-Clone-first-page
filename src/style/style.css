@@ -8,8 +8,12 @@ body{
     color: white
 }
 
-.main{
+.Main{
 
     height: 780px;
-    background-image: url(../images/netflix-background-image.jpg);
+    background: url(../images/netflix-background-image.jpg) center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
+
