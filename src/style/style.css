@@ -32,6 +32,7 @@ body{
 
 .Main{
 
+    padding-top: 70px;
     height: 620px;
     background: url(../images/netflix-background-image.jpg) center;
     display: flex;
@@ -43,8 +44,8 @@ body{
 
 .Main h1{
 
-    font-size: 64px;
-    max-width: 516px;
+    font-size: 50px;
+    max-width: 640px;
     text-align: center;
 } 
 
@@ -56,6 +57,15 @@ body{
 
 .Main-Child span{
     font-size: 26px;
+    margin-top: 12px;
+    max-width: 552px;
+    text-align: center;
+}
+
+.Main-Child p {
+    font-size: 19px;
+    max-width: 753px;
+    margin-top: 30px
 }
 
 .Form{
@@ -84,10 +94,6 @@ body{
     font-size: 30px;
     text-transform: uppercase;
 
-}
-
-.Main-Child p {
-    font-size: 16px;
 }
 
 
