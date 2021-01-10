@@ -28,6 +28,16 @@ body{
 
 .Main-Child{
     z-index: 1;
+    display: grid;
+    justify-items: center;
+}
+
+.Main-Child span{
+    font-size: 26px;
+}
+
+.Main-Child p {
+    font-size: 16px;
 }
 
 .Gradient {
