@@ -15,6 +15,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center; 
+    position: relative;
     
 }
 
@@ -24,6 +25,10 @@ body{
     max-width: 516px;
     text-align: center;
 } 
+
+.Main-Child{
+    z-index: 1;
+}
 
 .Gradient {
 
