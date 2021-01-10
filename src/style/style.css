@@ -105,6 +105,17 @@ body{
 
 }
 
+.Form button::after{
+    
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background: url("../Sources/seta.svg") no-repeat;
+    margin-left: 20px;
+
+}
+
 
 .Gradient {
 
