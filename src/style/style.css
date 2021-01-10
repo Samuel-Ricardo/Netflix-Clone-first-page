@@ -15,5 +15,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center; 
+    
 }
+
+.Main h1{
+
+    font-size: 64px;
+    max-width: 516px;
+    text-align: center;
+} 
 
