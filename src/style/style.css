@@ -10,13 +10,13 @@ body{
 
 .Main{
 
-    height: 780px;
+    height: 620px;
     background: url(../images/netflix-background-image.jpg) center;
     display: flex;
     align-items: center;
     justify-content: center; 
     position: relative;
-    
+
 }
 
 .Main h1{
@@ -33,6 +33,7 @@ body{
 .Gradient {
 
     background-color: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
     position: absolute;
     left: 0;
     top: 0;
