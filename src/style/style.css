@@ -19,6 +19,17 @@ body{
     left: 56px;
 }
 
+.Header a{
+
+    display: inline-block;
+    background-color: #e50913;
+    color: white;
+    align-self: flex-start;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
 .Main{
 
     height: 620px;
