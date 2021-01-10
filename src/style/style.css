@@ -131,4 +131,34 @@ body{
     grid-template-columns: 1.1fr 1fr;
 }
 
+.Image-tv{
+
+    position: relative;
+}
+
+.Image-tv img{
+
+    position: relative;
+    z-index: 10;
+
+    max-width: 428px;
+    max-height: 328px;
+    width: auto;
+    height: auto;
+}
+
+.Video-tv{
+
+    position: absolute;
+    top: 65px;
+    left: 57px;
+}
+
+.Video-tv video{
+
+    max-width:311px;
+    max-height:428px;
+    width: auto;
+    height: auto;
+}
 
