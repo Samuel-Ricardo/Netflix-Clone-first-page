@@ -8,6 +8,17 @@ body{
     color: white
 }
 
+.Header{
+
+    position: absolute;
+    z-index: 1000;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    top: 28px;
+    left: 56px;
+}
+
 .Main{
 
     height: 620px;
