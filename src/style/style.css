@@ -213,3 +213,7 @@ body{
     border-top: 8px solid #222222;
     
 }
+
+.Footer .Form {
+    justify-content: center;
+}
