@@ -203,9 +203,12 @@ body{
 .Download-Field {
 
     background-color: #000000;
+    box-shadow: 0 0 2em 0 #000;
 
-    border: 3px #404040 solid;
-    border-radius: 20px; 
+    border: 2px solid rgba(255,255,255,.25);
+    border-radius: .75em;
+
+    align-items: center;
 
     position: relative;
     z-index: 10;
@@ -213,14 +216,14 @@ body{
     bottom: 28%;
     left: 13%;
     
-    width: auto;
-    height: auto;
+    width: 55%;
+    height: 20%;
+
 }
 
 .grid{
 
-    display: grid;
-    grid-template-columns: 10% 100%;
+    display: flex;
 
 }
 
@@ -229,6 +232,29 @@ body{
     font-size: 1em;
     font-weight: 600;
     
+}
+
+.Download-Text p{
+
+    padding: 20px 0px 0px 0px;
+
+}
+
+#downloading{
+
+    font-weight: 100;
+    color:#1a55a5;
+    padding: 1px 0px 0px 0px;
+}
+
+.Download-Animation img{
+
+    padding: 18px 10px;
+
+    max-width:51px;
+    max-height:72px;
+    width: auto;
+    height: auto;
 }
 
 .Download-Image img{
