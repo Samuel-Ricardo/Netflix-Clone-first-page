@@ -200,10 +200,31 @@ body{
     order: 1;
 }
 
+.Download-Field {
+
+    background-color: #000000;
+
+    border: 3px #404040 solid;
+    border-radius: 20px; 
+
+    position: relative;
+    z-index: 10;
+
+    bottom: 28%;
+    left: 13%;
+    
+    max-width:278px;
+    max-height:96px;
+    width: auto;
+    height: auto;
+}
+
 .Download-Image img{
 
-    max-width:100px;
-    max-height:150px;
+    padding: 10px 12px;
+
+    max-width:51px;
+    max-height:72px;
     width: auto;
     height: auto;
 }
