@@ -200,6 +200,14 @@ body{
     order: 1;
 }
 
+.Download-Image img{
+
+    max-width:100px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
 
 .Devaice-Pile .Video-tv{
 
