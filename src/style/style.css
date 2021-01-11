@@ -213,10 +213,22 @@ body{
     bottom: 28%;
     left: 13%;
     
-    max-width:278px;
-    max-height:96px;
     width: auto;
     height: auto;
+}
+
+.grid{
+
+    display: grid;
+    grid-template-columns: 10% 100%;
+
+}
+
+.Download-Text{
+    vertical-align: inherit;
+    font-size: 1em;
+    font-weight: 600;
+    
 }
 
 .Download-Image img{
